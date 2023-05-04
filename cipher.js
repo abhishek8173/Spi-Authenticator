@@ -1,4 +1,4 @@
-import crypto from "crypto";
+import crypto from "node:crypto";
 import config from "./config.js";
 
 const { secret_key, secret_iv, ecnryption_method } = config;
